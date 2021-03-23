@@ -1,19 +1,14 @@
 /* Practice CustomFonts Style Sheet */
 
 @font-face {
-    font-family: 'zilla_slab_regularregular';
-    src: url('../fonts/zillaslab-regular-webfont.eot');
-    src: url('../fonts/zillaslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/zillaslab-regular-webfont.woff2') format('woff2'),
-         url('../fonts/zillaslab-regular-webfont.woff') format('woff'),
-         url('../fonts/zillaslab-regular-webfont.ttf') format('truetype'),
-         url('../fonts/zillaslab-regular-webfont.svg#zilla_slab_regularregular') format('svg');
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/SourceSansPro-LightIt.otf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
-.squirrel{
-    font-family: 'zilla_slab_regularregular', sans-serif, "Courier New";
-}
-.google {
-    font-family: 'Dosis', sans-serif, "Courier New";
+
+body{
+	font-family: 'source_sans_proregular', "Times New Roman", serif;
 }
