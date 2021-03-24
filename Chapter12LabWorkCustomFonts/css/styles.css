@@ -1,13 +1,13 @@
 /* Practice CustomFonts Style Sheet */
 
 @font-face {
-    font-family: 'source_sans_proregular';
-    src: url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
-         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2');
+    font-family: 'sofia';
+    src: url('../fonts/sofia-regular-webfont.woff') format('woff'),
+         url('../fonts/sofia-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 body{
-	font-family: 'source_sans_proregular', "Times New Roman", serif;
+	font-family: 'sofia', "Times New Roman", serif;
 }
